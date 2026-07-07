@@ -1,51 +1,251 @@
 transaction_id,user_id,transaction_date,description,amount,transaction_type,category,monthly_budget
-txn-001,user-001,2026-06-01,Starbucks Coffee,7.85,expense,food,2500
-txn-002,user-001,2026-06-01,Safeway Grocery Store,64.22,expense,food,2500
-txn-003,user-001,2026-06-02,Shell Gas Station,52.10,expense,transportation,2500
-txn-004,user-001,2026-06-02,Netflix Subscription,17.99,expense,subscriptions,2500
-txn-005,user-001,2026-06-03,Amazon Marketplace,89.45,expense,shopping,2500
-txn-006,user-001,2026-06-03,Electric Company Bill,145.30,expense,utilities,2500
-txn-007,user-001,2026-06-04,Chipotle,14.80,expense,food,2500
-txn-008,user-001,2026-06-04,Uber Ride,23.60,expense,transportation,2500
-txn-009,user-001,2026-06-05,Spotify Premium,10.99,expense,subscriptions,2500
-txn-010,user-001,2026-06-05,Target Store,76.35,expense,shopping,2500
-txn-011,user-001,2026-06-06,Movie Theater,31.50,expense,entertainment,2500
-txn-012,user-001,2026-06-06,Rent Payment,1200.00,expense,housing,2500
-txn-013,user-001,2026-06-07,Paycheck Deposit,2200.00,income,income,2500
-txn-014,user-001,2026-06-07,Water Utility Bill,48.25,expense,utilities,2500
-txn-015,user-001,2026-06-08,Costco Wholesale,132.45,expense,food,2500
-txn-016,user-001,2026-06-08,Lyft Ride,18.90,expense,transportation,2500
-txn-017,user-001,2026-06-09,Hulu Subscription,14.99,expense,subscriptions,2500
-txn-018,user-001,2026-06-09,Best Buy,249.99,expense,shopping,2500
-txn-019,user-001,2026-06-10,Concert Tickets,95.00,expense,entertainment,2500
-txn-020,user-001,2026-06-10,Internet Service Provider,79.99,expense,utilities,2500
-txn-021,user-001,2026-06-11,McDonalds,11.45,expense,food,2500
-txn-022,user-001,2026-06-11,Chevron Gas,47.80,expense,transportation,2500
-txn-023,user-001,2026-06-12,Apple Music,10.99,expense,subscriptions,2500
-txn-024,user-001,2026-06-12,Walmart Supercenter,58.67,expense,shopping,2500
-txn-025,user-001,2026-06-13,Bowling Alley,28.00,expense,entertainment,2500
-txn-026,user-001,2026-06-13,Health Insurance,210.00,expense,healthcare,2500
-txn-027,user-001,2026-06-14,Longs Drugs Pharmacy,36.75,expense,healthcare,2500
-txn-028,user-001,2026-06-14,Savings Transfer,300.00,transfer,savings,2500
-txn-029,user-001,2026-06-15,Paycheck Deposit,2200.00,income,income,2500
-txn-030,user-001,2026-06-15,Local Restaurant,42.90,expense,food,2500
-txn-031,user-002,2026-06-01,Dunkin Donuts,6.50,expense,food,1800
-txn-032,user-002,2026-06-01,Whole Foods Market,88.34,expense,food,1800
-txn-033,user-002,2026-06-02,Texaco Fuel,55.20,expense,transportation,1800
-txn-034,user-002,2026-06-02,Disney Plus,13.99,expense,subscriptions,1800
-txn-035,user-002,2026-06-03,Nordstrom Rack,120.45,expense,shopping,1800
-txn-036,user-002,2026-06-03,Gas Utility Bill,62.10,expense,utilities,1800
-txn-037,user-002,2026-06-04,Taco Bell,13.25,expense,food,1800
-txn-038,user-002,2026-06-04,Bus Pass,70.00,expense,transportation,1800
-txn-039,user-002,2026-06-05,YouTube Premium,13.99,expense,subscriptions,1800
-txn-040,user-002,2026-06-05,Old Navy,54.80,expense,shopping,1800
-txn-041,user-002,2026-06-06,Arcade,24.00,expense,entertainment,1800
-txn-042,user-002,2026-06-06,Apartment Rent,950.00,expense,housing,1800
-txn-043,user-002,2026-06-07,Paycheck Deposit,1600.00,income,income,1800
-txn-044,user-002,2026-06-07,Phone Bill,65.00,expense,utilities,1800
-txn-045,user-002,2026-06-08,Trader Joes,72.15,expense,food,1800
-txn-046,user-002,2026-06-08,Uber Eats,33.40,expense,food,1800
-txn-047,user-002,2026-06-09,Planet Fitness,24.99,expense,healthcare,1800
-txn-048,user-002,2026-06-09,GameStop,79.99,expense,entertainment,1800
-txn-049,user-002,2026-06-10,Dental Clinic,115.00,expense,healthcare,1800
-txn-050,user-002,2026-06-10,Savings Transfer,150.00,transfer,savings,1800
+txn-0143,user-003,2026-06-29,Karaoke Night,88.02,expense,entertainment,3200
+txn-0007,user-001,2026-06-26,Foodland Farms,28.15,expense,food,2500
+txn-0098,user-001,2026-06-03,Target Store,331.87,expense,shopping,2500
+txn-0061,user-004,2026-06-14,Hulu Subscription,11.42,expense,subscriptions,2200
+txn-0113,user-004,2026-06-09,Trash Service,220.84,expense,utilities,2200
+txn-0182,user-001,2026-06-21,Physical Therapy,115.54,expense,healthcare,2500
+txn-0198,user-001,2026-06-10,Longs Drugs Pharmacy,82.05,expense,healthcare,2500
+txn-0185,user-002,2026-06-06,CVS Pharmacy,225.46,expense,healthcare,1800
+txn-0010,user-003,2026-06-12,Pizza Hut,92.54,expense,food,3200
+txn-0105,user-002,2026-06-06,City Water Department,244.88,expense,utilities,1800
+txn-0201,user-003,2026-06-23,Bonus Payment,1407.49,income,income,3200
+txn-0217,user-004,2026-06-20,Tax Refund,2081.48,income,income,2200
+txn-0237,user-001,2026-06-25,Ally Savings Transfer,163.87,transfer,savings,2500
+txn-0241,user-003,2026-06-04,Transfer to Savings,607.53,transfer,savings,3200
+txn-0068,user-002,2026-06-01,Amazon Prime,39.49,expense,subscriptions,1800
+txn-0225,user-003,2026-06-08,Paycheck Deposit,1076.21,income,income,3200
+txn-0195,user-002,2026-06-08,Longs Drugs Pharmacy,221.62,expense,healthcare,1800
+txn-0016,user-004,2026-06-15,Costco Wholesale,97.17,expense,food,2200
+txn-0178,user-004,2026-06-23,CVS Pharmacy,75.53,expense,healthcare,2200
+txn-0025,user-004,2026-06-09,Chipotle,25.25,expense,food,2200
+txn-0248,user-004,2026-06-15,Transfer to Savings,543.99,transfer,savings,2200
+txn-0020,user-002,2026-06-15,Chipotle,60.02,expense,food,1800
+txn-0115,user-003,2026-06-04,Electric Company Bill,223.56,expense,utilities,3200
+txn-0069,user-003,2026-06-26,Streaming Service,32.48,expense,subscriptions,3200
+txn-0177,user-003,2026-06-22,Medical Copay,274.25,expense,healthcare,3200
+txn-0046,user-004,2026-06-30,Uber Ride,101.68,expense,transportation,2200
+txn-0056,user-004,2026-06-04,Disney Plus,8.39,expense,subscriptions,2200
+txn-0011,user-001,2026-06-15,Dunkin Donuts,82.75,expense,food,2500
+txn-0031,user-001,2026-06-13,Parking Garage,111.3,expense,transportation,2500
+txn-0121,user-002,2026-06-14,Trash Service,50.04,expense,utilities,1800
+txn-0202,user-003,2026-06-08,Scholarship Deposit,741.31,income,income,3200
+txn-0034,user-003,2026-06-21,Vehicle Registration,67.83,expense,transportation,3200
+txn-0142,user-001,2026-06-05,Sports Event Tickets,147.23,expense,entertainment,2500
+txn-0220,user-004,2026-06-19,Scholarship Deposit,1742.05,income,income,2200
+txn-0026,user-003,2026-06-19,Gas Station Mini Mart,82.83,expense,transportation,3200
+txn-0112,user-002,2026-06-01,Gas Utility Bill,176.91,expense,utilities,1800
+txn-0019,user-001,2026-06-21,Whole Foods Market,29.82,expense,food,2500
+txn-0197,user-004,2026-06-23,Hospital Billing,157.43,expense,healthcare,2200
+txn-0181,user-003,2026-06-14,Physical Therapy,205.23,expense,healthcare,3200
+txn-0160,user-004,2026-06-06,Room Rental,1624.56,expense,housing,2200
+txn-0119,user-001,2026-06-29,Cable Company,158.97,expense,utilities,2500
+txn-0097,user-004,2026-06-23,Nike Store,161.14,expense,shopping,2200
+txn-0109,user-001,2026-06-28,Cable Company,43.33,expense,utilities,2500
+txn-0186,user-003,2026-06-26,Medical Copay,277.49,expense,healthcare,3200
+txn-0223,user-002,2026-06-03,Zelle Received,813.07,income,income,1800
+txn-0017,user-003,2026-06-12,Chipotle,56.51,expense,food,3200
+txn-0147,user-003,2026-06-25,Karaoke Night,101.01,expense,entertainment,3200
+txn-0070,user-003,2026-06-23,Amazon Prime,38.51,expense,subscriptions,3200
+txn-0174,user-003,2026-06-20,Mortgage Payment,1367.97,expense,housing,3200
+txn-0039,user-001,2026-06-11,Metro Transit,93.06,expense,transportation,2500
+txn-0133,user-002,2026-06-10,Eventbrite Tickets,52.07,expense,entertainment,1800
+txn-0226,user-003,2026-06-28,Fidelity Contribution,345.12,transfer,savings,3200
+txn-0239,user-004,2026-06-27,Transfer to Savings,369.62,transfer,savings,2200
+txn-0120,user-003,2026-06-23,Electric Company Bill,128.75,expense,utilities,3200
+txn-0137,user-002,2026-06-23,Gaming Cafe,78.36,expense,entertainment,1800
+txn-0067,user-002,2026-06-13,Gym App Subscription,36.59,expense,subscriptions,1800
+txn-0218,user-002,2026-06-17,Interest Payment,1260.76,income,income,1800
+txn-0155,user-004,2026-06-01,Home Insurance,1737.02,expense,housing,2200
+txn-0169,user-003,2026-06-21,Property Management,775.48,expense,housing,3200
+txn-0230,user-001,2026-06-06,Savings Transfer,565.21,transfer,savings,2500
+txn-0234,user-004,2026-06-11,Fidelity Contribution,442.41,transfer,savings,2200
+txn-0157,user-004,2026-06-24,Apartment Deposit,1508.1,expense,housing,2200
+txn-0118,user-003,2026-06-26,Utility AutoPay,102.44,expense,utilities,3200
+txn-0085,user-001,2026-06-08,Electronics Store,141.94,expense,shopping,2500
+txn-0126,user-004,2026-06-24,Eventbrite Tickets,163.96,expense,entertainment,2200
+txn-0168,user-001,2026-06-18,Room Rental,757.29,expense,housing,2500
+txn-0246,user-001,2026-06-28,Transfer to Savings,402.69,transfer,savings,2500
+txn-0110,user-004,2026-06-07,Gas Utility Bill,210.57,expense,utilities,2200
+txn-0173,user-002,2026-06-23,Home Insurance,981.87,expense,housing,1800
+txn-0235,user-001,2026-06-08,Emergency Fund Transfer,675.24,transfer,savings,2500
+txn-0074,user-002,2026-06-17,Netflix Subscription,7.8,expense,subscriptions,1800
+txn-0159,user-004,2026-06-13,Rent Payment,1069.74,expense,housing,2200
+txn-0116,user-003,2026-06-19,Internet Service Provider,241.94,expense,utilities,3200
+txn-0076,user-002,2026-06-04,GameStop,330.73,expense,shopping,1800
+txn-0238,user-004,2026-06-09,Long Term Savings,167.97,transfer,savings,2200
+txn-0083,user-001,2026-06-18,Target Store,90.34,expense,shopping,2500
+txn-0030,user-002,2026-06-22,Vehicle Registration,81.77,expense,transportation,1800
+txn-0127,user-003,2026-06-18,Museum Tickets,152.56,expense,entertainment,3200
+txn-0080,user-003,2026-06-09,Best Buy,150.61,expense,shopping,3200
+txn-0087,user-003,2026-06-26,Home Depot,235.81,expense,shopping,3200
+txn-0006,user-004,2026-06-15,McDonalds,90.44,expense,food,2200
+txn-0057,user-004,2026-06-14,Apple Music,19.39,expense,subscriptions,2200
+txn-0187,user-004,2026-06-14,Walgreens Pharmacy,251.21,expense,healthcare,2200
+txn-0232,user-003,2026-06-13,Fidelity Contribution,662.74,transfer,savings,3200
+txn-0171,user-002,2026-06-01,Lease Payment,1383.47,expense,housing,1800
+txn-0066,user-002,2026-06-14,Hulu Subscription,22.0,expense,subscriptions,1800
+txn-0141,user-004,2026-06-18,Movie Theater,56.12,expense,entertainment,2200
+txn-0125,user-003,2026-06-05,Home Internet Bill,76.25,expense,utilities,3200
+txn-0214,user-004,2026-06-19,Direct Deposit Payroll,1758.89,income,income,2200
+txn-0149,user-003,2026-06-09,Arcade,70.41,expense,entertainment,3200
+txn-0032,user-004,2026-06-09,Car Wash,175.08,expense,transportation,2200
+txn-0013,user-003,2026-06-07,Whole Foods Market,107.16,expense,food,3200
+txn-0036,user-003,2026-06-25,Car Wash,40.37,expense,transportation,3200
+txn-0029,user-001,2026-06-04,Tire Shop,35.98,expense,transportation,2500
+txn-0043,user-001,2026-06-18,Vehicle Registration,140.19,expense,transportation,2500
+txn-0219,user-004,2026-06-28,Scholarship Deposit,1677.05,income,income,2200
+txn-0023,user-003,2026-06-09,Local Restaurant,14.6,expense,food,3200
+txn-0094,user-001,2026-06-21,Target Store,159.78,expense,shopping,2500
+txn-0213,user-004,2026-06-27,Direct Deposit Payroll,630.69,income,income,2200
+txn-0102,user-001,2026-06-12,Power Company,80.17,expense,utilities,2500
+txn-0052,user-001,2026-06-03,Disney Plus,36.69,expense,subscriptions,2500
+txn-0096,user-002,2026-06-09,Ross Dress For Less,73.32,expense,shopping,1800
+txn-0144,user-004,2026-06-30,Live Music Venue,105.4,expense,entertainment,2200
+txn-0200,user-004,2026-06-17,Physical Therapy,116.25,expense,healthcare,2200
+txn-0077,user-002,2026-06-20,Home Depot,33.11,expense,shopping,1800
+txn-0042,user-001,2026-06-24,Chevron Gas,92.62,expense,transportation,2500
+txn-0114,user-003,2026-06-21,Trash Service,144.52,expense,utilities,3200
+txn-0153,user-001,2026-06-27,Property Management,1162.16,expense,housing,2500
+txn-0079,user-003,2026-06-09,Electronics Store,87.41,expense,shopping,3200
+txn-0148,user-002,2026-06-15,Mini Golf,27.78,expense,entertainment,1800
+txn-0027,user-004,2026-06-08,Bus Pass,179.55,expense,transportation,2200
+txn-0242,user-003,2026-06-23,Automatic Savings,372.05,transfer,savings,3200
+txn-0165,user-003,2026-06-15,Property Management,1059.53,expense,housing,3200
+txn-0244,user-004,2026-06-11,Emergency Fund Transfer,214.06,transfer,savings,2200
+txn-0138,user-004,2026-06-05,Arcade,123.25,expense,entertainment,2200
+txn-0001,user-001,2026-06-24,Starbucks Coffee,44.88,expense,food,2500
+txn-0003,user-001,2026-06-14,Whole Foods Market,9.61,expense,food,2500
+txn-0078,user-001,2026-06-22,GameStop,212.61,expense,shopping,2500
+txn-0047,user-002,2026-06-10,Gas Station Mini Mart,77.83,expense,transportation,1800
+txn-0101,user-003,2026-06-30,Power Company,206.17,expense,utilities,3200
+txn-0128,user-003,2026-06-07,Mini Golf,85.93,expense,entertainment,3200
+txn-0151,user-002,2026-06-07,Room Rental,770.65,expense,housing,1800
+txn-0249,user-002,2026-06-18,Brokerage Deposit,135.16,transfer,savings,1800
+txn-0091,user-003,2026-06-07,Home Depot,256.81,expense,shopping,3200
+txn-0086,user-002,2026-06-27,Apple Store,199.26,expense,shopping,1800
+txn-0176,user-003,2026-06-19,Longs Drugs Pharmacy,27.19,expense,healthcare,3200
+txn-0196,user-004,2026-06-25,Physical Therapy,87.29,expense,healthcare,2200
+txn-0099,user-002,2026-06-02,Nike Store,295.42,expense,shopping,1800
+txn-0037,user-001,2026-06-21,Tire Shop,60.74,expense,transportation,2500
+txn-0062,user-004,2026-06-28,Disney Plus,37.31,expense,subscriptions,2200
+txn-0163,user-001,2026-06-14,Housing Fee,849.27,expense,housing,2500
+txn-0140,user-001,2026-06-14,Karaoke Night,51.11,expense,entertainment,2500
+txn-0012,user-004,2026-06-18,Safeway Grocery Store,47.51,expense,food,2200
+txn-0245,user-001,2026-06-13,Ally Savings Transfer,612.19,transfer,savings,2500
+txn-0199,user-002,2026-06-22,Urgent Care,182.84,expense,healthcare,1800
+txn-0028,user-002,2026-06-16,Car Wash,25.45,expense,transportation,1800
+txn-0156,user-003,2026-06-13,Dorm Housing Payment,1638.79,expense,housing,3200
+txn-0005,user-001,2026-06-07,Panda Express,108.82,expense,food,2500
+txn-0123,user-001,2026-06-29,Utility AutoPay,99.57,expense,utilities,2500
+txn-0033,user-001,2026-06-24,Airport Shuttle,29.47,expense,transportation,2500
+txn-0145,user-002,2026-06-28,Gaming Cafe,93.32,expense,entertainment,1800
+txn-0179,user-002,2026-06-23,Longs Drugs Pharmacy,236.29,expense,healthcare,1800
+txn-0139,user-001,2026-06-25,Recreation Center,156.97,expense,entertainment,2500
+txn-0063,user-004,2026-06-28,Notion Plus,34.96,expense,subscriptions,2200
+txn-0136,user-004,2026-06-29,Museum Tickets,118.91,expense,entertainment,2200
+txn-0129,user-003,2026-06-15,Sports Event Tickets,87.96,expense,entertainment,3200
+txn-0227,user-002,2026-06-09,Long Term Savings,562.09,transfer,savings,1800
+txn-0206,user-003,2026-06-27,Direct Deposit Payroll,888.24,income,income,3200
+txn-0071,user-004,2026-06-07,Hulu Subscription,15.38,expense,subscriptions,2200
+txn-0193,user-003,2026-06-09,Vision Center,266.49,expense,healthcare,3200
+txn-0065,user-001,2026-06-30,Spotify Premium,31.37,expense,subscriptions,2500
+txn-0045,user-002,2026-06-17,Lyft Ride,158.31,expense,transportation,1800
+txn-0166,user-004,2026-06-25,HOA Payment,1746.32,expense,housing,2200
+txn-0041,user-003,2026-06-02,Uber Ride,50.95,expense,transportation,3200
+txn-0124,user-003,2026-06-14,Energy Service,105.13,expense,utilities,3200
+txn-0154,user-001,2026-06-29,Lease Payment,1542.15,expense,housing,2500
+txn-0024,user-003,2026-06-21,McDonalds,77.39,expense,food,3200
+txn-0212,user-002,2026-06-09,Paycheck Deposit,2382.13,income,income,1800
+txn-0184,user-003,2026-06-29,Hospital Billing,252.04,expense,healthcare,3200
+txn-0082,user-001,2026-06-15,Amazon Marketplace,224.98,expense,shopping,2500
+txn-0040,user-001,2026-06-12,Taxi Service,159.38,expense,transportation,2500
+txn-0210,user-004,2026-06-28,Direct Deposit Payroll,524.53,income,income,2200
+txn-0048,user-003,2026-06-29,Auto Repair Shop,97.99,expense,transportation,3200
+txn-0095,user-003,2026-06-01,Amazon Marketplace,130.07,expense,shopping,3200
+txn-0191,user-003,2026-06-16,Health Insurance,258.27,expense,healthcare,3200
+txn-0162,user-004,2026-06-19,Landlord Payment,1429.3,expense,housing,2200
+txn-0044,user-002,2026-06-16,Airport Shuttle,170.96,expense,transportation,1800
+txn-0146,user-003,2026-06-08,Karaoke Night,153.58,expense,entertainment,3200
+txn-0183,user-004,2026-06-16,Clinic Visit,49.55,expense,healthcare,2200
+txn-0004,user-001,2026-06-08,McDonalds,78.28,expense,food,2500
+txn-0106,user-002,2026-06-14,Power Company,40.33,expense,utilities,1800
+txn-0054,user-004,2026-06-18,Disney Plus,9.63,expense,subscriptions,2200
+txn-0134,user-002,2026-06-01,Bowling Alley,22.63,expense,entertainment,1800
+txn-0228,user-002,2026-06-04,Automatic Savings,403.97,transfer,savings,1800
+txn-0194,user-003,2026-06-01,Physical Therapy,164.66,expense,healthcare,3200
+txn-0233,user-004,2026-06-03,Retirement Contribution,438.72,transfer,savings,2200
+txn-0050,user-001,2026-06-18,Metro Transit,49.12,expense,transportation,2500
+txn-0164,user-004,2026-06-02,Mortgage Payment,986.17,expense,housing,2200
+txn-0081,user-003,2026-06-11,Apple Store,326.58,expense,shopping,3200
+txn-0035,user-003,2026-06-06,Parking Garage,87.13,expense,transportation,3200
+txn-0207,user-002,2026-06-06,Bonus Payment,1104.54,income,income,1800
+txn-0008,user-004,2026-06-09,Trader Joes,27.54,expense,food,2200
+txn-0172,user-002,2026-06-16,Mortgage Payment,1436.4,expense,housing,1800
+txn-0111,user-004,2026-06-10,Trash Service,211.42,expense,utilities,2200
+txn-0092,user-002,2026-06-21,Ross Dress For Less,301.46,expense,shopping,1800
+txn-0084,user-003,2026-06-30,Walmart Supercenter,135.17,expense,shopping,3200
+txn-0224,user-004,2026-06-23,Venmo Received,1687.62,income,income,2200
+txn-0229,user-002,2026-06-09,Long Term Savings,587.31,transfer,savings,1800
+txn-0090,user-001,2026-06-18,Marshalls,71.3,expense,shopping,2500
+txn-0009,user-003,2026-06-03,Safeway Grocery Store,60.09,expense,food,3200
+txn-0014,user-001,2026-06-08,Taco Bell,117.09,expense,food,2500
+txn-0060,user-001,2026-06-07,Disney Plus,11.66,expense,subscriptions,2500
+txn-0216,user-003,2026-06-08,Direct Deposit Payroll,736.9,income,income,3200
+txn-0132,user-003,2026-06-27,Concert Tickets,172.08,expense,entertainment,3200
+txn-0018,user-003,2026-06-30,Dunkin Donuts,104.11,expense,food,3200
+txn-0167,user-004,2026-06-27,HOA Payment,790.1,expense,housing,2200
+txn-0073,user-003,2026-06-02,Netflix Subscription,25.45,expense,subscriptions,3200
+txn-0221,user-001,2026-06-07,Interest Payment,1751.03,income,income,2500
+txn-0135,user-004,2026-06-28,Comedy Club,141.8,expense,entertainment,2200
+txn-0205,user-003,2026-06-19,Reimbursement,2453.21,income,income,3200
+txn-0231,user-003,2026-06-04,Retirement Contribution,354.65,transfer,savings,3200
+txn-0064,user-001,2026-06-21,Netflix Subscription,39.97,expense,subscriptions,2500
+txn-0055,user-004,2026-06-26,Disney Plus,21.55,expense,subscriptions,2200
+txn-0108,user-002,2026-06-06,Phone Bill,204.29,expense,utilities,1800
+txn-0051,user-002,2026-06-03,Netflix Subscription,29.77,expense,subscriptions,1800
+txn-0240,user-001,2026-06-12,Retirement Contribution,315.43,transfer,savings,2500
+txn-0175,user-001,2026-06-27,Dorm Housing Payment,880.14,expense,housing,2500
+txn-0209,user-003,2026-06-05,Reimbursement,1775.74,income,income,3200
+txn-0190,user-004,2026-06-20,Medical Copay,207.09,expense,healthcare,2200
+txn-0247,user-004,2026-06-07,Savings Transfer,386.99,transfer,savings,2200
+txn-0208,user-002,2026-06-02,Scholarship Deposit,2448.59,income,income,1800
+txn-0222,user-003,2026-06-03,Cash Deposit,814.11,income,income,3200
+txn-0170,user-001,2026-06-01,Dorm Housing Payment,1744.57,expense,housing,2500
+txn-0059,user-001,2026-06-13,Netflix Subscription,30.49,expense,subscriptions,2500
+txn-0049,user-001,2026-06-08,Uber Ride,20.88,expense,transportation,2500
+txn-0089,user-001,2026-06-05,Electronics Store,107.27,expense,shopping,2500
+txn-0022,user-001,2026-06-27,McDonalds,9.65,expense,food,2500
+txn-0058,user-001,2026-06-21,PlayStation Plus,39.45,expense,subscriptions,2500
+txn-0204,user-002,2026-06-07,Refund Deposit,1977.21,income,income,1800
+txn-0161,user-002,2026-06-18,Landlord Payment,729.66,expense,housing,1800
+txn-0243,user-004,2026-06-25,Future Fund Transfer,407.56,transfer,savings,2200
+txn-0188,user-003,2026-06-28,Vision Center,88.74,expense,healthcare,3200
+txn-0192,user-002,2026-06-07,Walgreens Pharmacy,119.35,expense,healthcare,1800
+txn-0130,user-002,2026-06-16,Escape Room,145.97,expense,entertainment,1800
+txn-0038,user-002,2026-06-12,Texaco Fuel,139.63,expense,transportation,1800
+txn-0158,user-002,2026-06-08,Home Insurance,1000.23,expense,housing,1800
+txn-0236,user-001,2026-06-22,Ally Savings Transfer,583.92,transfer,savings,2500
+txn-0002,user-002,2026-06-24,Chipotle,19.86,expense,food,1800
+txn-0053,user-003,2026-06-17,Spotify Premium,13.33,expense,subscriptions,3200
+txn-0150,user-001,2026-06-05,Bowling Alley,53.16,expense,entertainment,2500
+txn-0131,user-002,2026-06-03,Eventbrite Tickets,61.82,expense,entertainment,1800
+txn-0152,user-004,2026-06-18,Storage Unit Rent,1212.52,expense,housing,2200
+txn-0104,user-004,2026-06-24,Cell Phone Provider,68.23,expense,utilities,2200
+txn-0100,user-002,2026-06-05,GameStop,33.8,expense,shopping,1800
+txn-0117,user-003,2026-06-04,Electric Company Bill,163.26,expense,utilities,3200
+txn-0088,user-001,2026-06-27,Ross Dress For Less,203.02,expense,shopping,2500
+txn-0203,user-002,2026-06-04,Bonus Payment,1985.76,income,income,1800
+txn-0075,user-002,2026-06-20,Spotify Premium,7.38,expense,subscriptions,1800
+txn-0215,user-001,2026-06-05,Freelance Payment,2122.28,income,income,2500
+txn-0211,user-003,2026-06-16,Venmo Received,1380.94,income,income,3200
+txn-0122,user-003,2026-06-11,Cell Phone Provider,177.63,expense,utilities,3200
+txn-0250,user-003,2026-06-29,Retirement Contribution,503.86,transfer,savings,3200
+txn-0021,user-002,2026-06-11,Taco Bell,127.21,expense,food,1800
+txn-0189,user-001,2026-06-29,Urgent Care,146.22,expense,healthcare,2500
+txn-0072,user-001,2026-06-24,Xbox Game Pass,23.98,expense,subscriptions,2500
+txn-0107,user-003,2026-06-30,Broadband Payment,123.52,expense,utilities,3200
+txn-0015,user-001,2026-06-08,Pizza Hut,130.64,expense,food,2500
+txn-0093,user-004,2026-06-29,Old Navy,319.69,expense,shopping,2200
+txn-0180,user-001,2026-06-19,Eye Exam,239.14,expense,healthcare,2500
+txn-0103,user-002,2026-06-04,Energy Service,111.04,expense,utilities,1800
