@@ -180,7 +180,7 @@ if __name__ == "__main__":
         },
         {
             "name": "Medium Risk Example",
-            "total_expenses": 1450,
+            "total_expenses": 1600,
             "monthly_budget": 2500,
             "current_day": 15,
         },
