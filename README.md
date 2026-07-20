@@ -8,7 +8,7 @@ This project was created for SWE-452 as a practical proof of concept. The goal i
 
 PacerML takes sample transaction data, cleans and preprocesses it, trains a baseline machine learning model, predicts transaction categories, calculates budget risk, and assigns a financial health score and letter grade.
 
-The current Sprint 3 prototype includes:
+The current Sprint prototype includes:
 
 - Synthetic transaction dataset generation
 - Transaction data preprocessing
@@ -236,7 +236,7 @@ python3 -m pytest
 Current test result:
 
 ```text
-6 passed
+10 passed
 ```
 
 The tests validate:
@@ -252,19 +252,118 @@ The tests validate:
 
 The Sprint 3 prototype successfully demonstrates the core PacerML workflow. The system can generate synthetic transaction data, preprocess the data, train a baseline ML model, evaluate model performance, predict transaction categories, calculate budget risk, assign financial health grades, and validate key outputs with automated tests.
 
-## Future Enhancements
+## Sprint 4 API Prototype
 
-Possible future improvements include:
+Sprint 4 adds a FastAPI backend that exposes the core PacerML prototype through local API endpoints. This turns the Sprint 3 command-line prototype into a simple ML service.
 
-- Larger and more diverse transaction dataset
-- More advanced feature engineering
-- Improved category prediction accuracy
-- FastAPI prediction endpoint
-- Simple dashboard visualization
-- MLflow experiment tracking
-- Docker containerization
-- Cloud storage or deployment
-- Basic model monitoring
-- User feedback loop for corrected categories
+### Run the API
+
+Before running the API, make sure dependencies are installed:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Train the model so the model artifact exists:
+
+```bash
+python3 src/train_model.py
+```
+
+Start the API server:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Open the Swagger API documentation in a browser:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+### API Endpoints
+
+| Method | Endpoint | Purpose |
+|---|---|---|
+| GET | `/health` | Confirms the API is running |
+| POST | `/categorize` | Predicts a transaction category |
+| POST | `/budget-risk` | Returns Low, Medium, or High budget risk |
+| POST | `/financial-health` | Returns financial health score, grade, and risk |
+
+### Example Category Request
+
+```json
+{
+  "description": "Starbucks Latte"
+}
+```
+
+Example response:
+
+```json
+{
+  "description": "Starbucks Latte",
+  "predicted_category": "food"
+}
+```
+
+### Example Budget Risk Request
+
+```json
+{
+  "total_expenses": 1600,
+  "monthly_budget": 2500,
+  "current_day": 15,
+  "days_in_month": 30
+}
+```
+
+Example response includes:
+
+```json
+{
+  "risk_level": "Medium"
+}
+```
+
+### Example Financial Health Request
+
+```json
+{
+  "total_expenses": 1600,
+  "monthly_budget": 2500,
+  "total_income": 3000,
+  "total_savings": 200,
+  "current_day": 15,
+  "days_in_month": 30
+}
+```
+
+Example response includes:
+
+```json
+{
+  "financial_health_score": 80,
+  "financial_health_grade": "B",
+  "budget_risk": "Medium"
+}
+```
+
+## Continuous Integration
+
+Sprint 4 also adds a GitHub Actions workflow for basic CI validation. The workflow installs project dependencies, generates the dataset, trains the model, and runs the automated test suite.
+
+Local tests can be run with:
+
+```bash
+python3 -m pytest
+```
+
+Current local test result:
+
+```text
+10 passed
+```
 
 
