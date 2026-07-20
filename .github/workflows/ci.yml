@@ -3,8 +3,7 @@ name: PacerML CI
 on:
   push:
     branches:
-      - main
-      - Sprint4
+      - "**"
   pull_request:
     branches:
       - main
