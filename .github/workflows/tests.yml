@@ -1,4 +1,4 @@
-name: PacerML Tests
+name: PacerML CI
 
 on:
   push:
